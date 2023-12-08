@@ -64,4 +64,4 @@ That said, in the context of a single static site, development with workshop mig
 
 ## Noop Deployment
 
-To deploy a static website on Noop, connect this or any other repository with a `.noop` directory to your Cloud application. For a complete set of instructions see the [Launch Astro Site Guide](/blog/launch-astro-site/) on the Noop blog.
+To deploy a static website on Noop, connect this or any other repository with a `.noop` directory to your Cloud application. For a complete set of instructions see the [Launch Astro Site Guide](https://noop.dev/blog/launch-astro-site/) on the Noop blog.
