@@ -7,8 +7,13 @@ components:
       index: index.html
     build:
       steps:
-        - copy: .
+        - copy: package.json
+        - copy: package-lock.json
         - run: npm ci
+        - copy: public/
+        - copy: src/
+        - copy: tsconfig.json
+        - copy: astro.config.mjs
         - run: npm run build
         - directory: dist/
 routes:
